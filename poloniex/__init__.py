@@ -285,6 +285,7 @@ class Poloniex(object):
     # --PUBLIC COMMANDS-------------------------------------------------------
     def returnTicker(self):
         """ Returns the ticker for all markets. """
+        """https://poloniex.com/public?command=returnTicker"""
         return self.__call__('returnTicker')
 
     def return24hVolume(self):
